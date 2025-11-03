@@ -144,11 +144,12 @@ body {
 /* IMAGE STYLING */
 .card img {
     width: 100%;
-    height: 250px;       /* Height set ki */
-    object-fit: cover;  /* Image stretch nahi hogi, crop hogi */
+    height: 220px;   /* All images same clean size */
+    object-fit: cover; /* Image perfect adjust hogi */
     display: block;
-    opacity: 1; /* Opacity full */
+    border-radius: 4px;
 }
+
 
 /* Title bar (Matrimonial, etc.) */
 .card h3 {
